@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js page-front" lang="en">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>Natco | Designers of luxury hospitality and residential interiors</title>
+      <!-- Meta -->
+      <meta name="Description" lang="en_US" content="">
+      <meta name="keywords" lang="en_US" content="">
+      <!-- SEO Tags : FB OpenGraph -->
+      <meta property="og:image" content="images/uploads/front-1.png"/>
+      <meta property="og:title" content="Natco Designworks | Designers of luxury hospitality and residential interiors"/>
+      <meta property="og:url" content="index.html"/>
+      <meta property="og:site_name" content="Natco"/>
+      <meta property="og:type" content="article"/>
+      <meta property="og:description" content="As designers of luxury hospitality and residential interiors, we transform spaces into inspiring experiences that resonate with the spirit of place." />
+      <meta property="og:locale" content="en_US" />
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@siteurl">
+      <meta name="twitter:creator" content="@author">
+      <!-- Fav icons -->
+       <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-57x57.png">
+       <link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-60x60.png">
+       <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-72x72.png">
+       <link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-76x76.png">
+       <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-114x114.png">
+       <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-120x120.png">
+       <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-144x144.png">
+       <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-152x152.png">
+       <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/assets/favicons/apple-icon-180x180.png">
+       <link rel="icon" type="image/png" sizes="192x192"  href="<?php echo get_template_directory_uri() ?>/assets/favicons/android-icon-192x192.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri() ?>/assets/favicons/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri() ?>/assets/favicons/favicon-96x96.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri() ?>/assets/favicons/favicon-16x16.png">
+       <link rel="manifest" href="<?php echo get_template_directory_uri() ?>/assets/favicons/manifest.json">
+       <meta name="msapplication-TileColor" content="#ffffff">
+       <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri() ?>/assets/favicons/ms-icon-144x144.png">
+       <meta name="theme-color" content="#ffffff">
+      <meta name="theme-color" content="#ffffff">
+      <!-- Add font links here -->
+      <!-- Other stylesheets -->
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/hamburgers.css" media="all" />
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/common.css"  media="all" />
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/common-edit.css"  media="all" />
+      <!-- Modernizr and Mobile Detect -->
+      <script src="<?php echo get_template_directory_uri() ?>/assets/js/modernizr.js"></script>
+      <script src="<?php echo get_template_directory_uri() ?>/assets/js/mobile-detect.min.js"></script>
+   </head>
+   <body <?php body_class(); ?>>
+      <body>
+         <div id="transition_bg"></div>
+         <header>
+            <div id="navigation_overlay">
+               <div id="navigation_overlay_basecontainer">
+                  <div id="navigation_overlay_right">
+                     <div class="navigation-overlay-inner">
+                        <div id="top_navigation">
+                            <?php wp_nav_menu( array( 'theme_location' => 'top' ) ); ?>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="navigation_overlay_left">
+                     <div class="navigation-overlay-inner">
+                        <div id="navigation_projectcontainer">
+                           <div id="navigation_projectbg" class="bg-1"></div>
+                           <div id="navigation_projectimgcontainer">
+                              <!-- project panels -->
+                              <div class="navigation-projectpanel active" data-bgclass="bg-1">
+                                 <div class="navigation-projectimg" style="background-image:url('<?php echo get_template_directory_uri() ?>/assets/img/site_images/nprojimg-01.jpg');"></div>
+                                 <div class="navigation-projecttext">&ldquo;Elegance is not about being noticed, it's about being remembered&rdquo;<br/>&mdash; Giorgio Armani</div>
+                              </div>
+                              <div class="navigation-projectpanel" data-bgclass="bg-2">
+                                 <div class="navigation-projectimg" style="background-image:url('<?php echo get_template_directory_uri() ?>/assets/img/site_images/nprojimg-02.jpg');"></div>
+                                 <div class="navigation-projecttext">&ldquo;The details are not the details. They make the design.&rdquo;<br/>&mdash; Charles Eames</div>
+                              </div>
+                              <div class="navigation-projectpanel" data-bgclass="bg-3">
+                                 <div class="navigation-projectimg" style="background-image:url('<?php echo get_template_directory_uri() ?>/assets/img/site_images/nprojimg-03.jpg');"></div>
+                                 <div class="navigation-projecttext">&ldquo;Simplicity is the Ultimate Sophistication&rdquo;<br/>&mdash; Leonardo Da Vinci</div>
+                              </div>
+                              <!--end project panels -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="social_container">
+               <a class="social-button" target="_blank" href="https://www.facebook.com/#/">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7.894 14.488">
+                     <g data-name="Group 210">
+                        <g data-name="Group 209" transform="translate(0 0)">
+                           <path data-name="Path 85" class="cls-1" d="M7.584,1H5.7A3.3,3.3,0,0,0,2.2,4.56V6.2H.31A.31.31,0,0,0,0,6.51V8.894a.31.31,0,0,0,.31.31H2.2v5.975a.31.31,0,0,0,.31.31H4.984a.31.31,0,0,0,.31-.31V9.142H7.522a.31.31,0,0,0,.31-.31V6.448a.317.317,0,0,0-.31-.31H5.263V4.746c0-.681.155-.991,1.053-.991H7.584a.31.31,0,0,0,.31-.31V1.279A.329.329,0,0,0,7.584,1Z" transform="translate(0 -1)"/>
+                        </g>
+                     </g>
+                  </svg>
+               </a>
+               <a class="social-button" target="_blank" href="https://www.instagram.com/#/">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.435 13.435">
+                     <g data-name="Group 206">
+                        <path data-name="Path 82" class="cls-1" d="M122.634,2.6H132.6a1.693,1.693,0,0,1,1.734,1.734V14.3a1.693,1.693,0,0,1-1.734,1.734h-9.968A1.693,1.693,0,0,1,120.9,14.3V4.334A1.73,1.73,0,0,1,122.634,2.6Zm8.049,1.486a.621.621,0,0,0-.619.619V6.129a.621.621,0,0,0,.619.619H132.2a.621.621,0,0,0,.619-.619V4.705a.621.621,0,0,0-.619-.619Zm2.136,4.179h-1.176a3.553,3.553,0,0,1,.186,1.145,4.181,4.181,0,0,1-8.358,0,3.552,3.552,0,0,1,.186-1.145h-1.238V13.93a.542.542,0,0,0,.526.526h9.349a.542.542,0,0,0,.526-.526V8.265Zm-5.17-1.61a2.6,2.6,0,1,0,0,5.2,2.657,2.657,0,0,0,2.693-2.6A2.657,2.657,0,0,0,127.649,6.655Z" transform="translate(-120.9 -2.6)"/>
+                     </g>
+                  </svg>
+               </a>
+               <a class="social-button" target="_blank" href="https://www.pinterest.com/#/">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2164.688 3928.414 12.277 15">
+                     <g data-name="Group 208" transform="translate(-2164.688 3928.414)">
+                        <path data-name="Path 84" class="cls-1" d="M387.266,9.968c-.4,2.074-.929,4.055-2.415,5.077-.464-3.127.681-5.479,1.207-7.956-.9-1.455.124-4.365,2.012-3.653,2.353.9-2.043,5.386.9,5.944,3.065.588,4.334-5.077,2.415-6.9-2.755-2.662-8.018-.062-7.368,3.746.155.929,1.176,1.207.4,2.507-1.764-.371-2.291-1.7-2.229-3.467.124-2.879,2.724-4.891,5.356-5.17,3.312-.341,6.439,1.145,6.841,4.117.5,3.343-1.486,6.965-5.046,6.718A4.4,4.4,0,0,1,387.266,9.968Z" transform="translate(-382.184 -0.045)"/>
+                     </g>
+                  </svg>
+               </a>
+            </div>
+            <div id="top_navi_button" class="has-ani ani-fadein">
+               <div class="hamburger hamburger--squeeze" tabindex="0"
+                  aria-label="Menu" role="button" aria-controls="navigation">
+                  <div class="hamburger-box">
+                     <div class="hamburger-inner"></div>
+                  </div>
+               </div>
+            </div>
+             <div id="logo" class="has-ani ani-fadein"><div class="logo-base"></div><div class="logo-mask">
+                 <svg id="e8ab899a-e319-4567-941c-36c4ab54b684" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.96 75.16"><defs><style>.b21bfc0a-689d-4d20-bd98-0c27e9e56374{fill:#fff;}</style></defs><title>natco</title><g id="28234f44-1616-47f7-a718-253587c3169f" data-name="&lt;Group&gt;"><polygon class="b21bfc0a-689d-4d20-bd98-0c27e9e56374" points="47.49 10.35 46.43 10.35 34.76 64.97 36.02 64.97 46.96 13.8 57.9 64.97 59.16 64.97 47.49 10.35"/></g><g id="9e0e23fb-4dcb-456c-b049-45d8640313f7" data-name="&lt;Group&gt;"><polygon class="b21bfc0a-689d-4d20-bd98-0c27e9e56374" points="54.79 11.7 66.32 11.7 66.32 64.97 67.5 64.97 67.5 11.7 79.03 11.7 79.03 10.35 54.79 10.35 54.79 11.7"/></g><g id="788e1af7-72ff-4b49-bbf5-4b3fb2267994" data-name="&lt;Group&gt;"><path class="b21bfc0a-689d-4d20-bd98-0c27e9e56374" d="M86.15,40.4V27.19A13.8,13.8,0,0,1,87,22.34a13.44,13.44,0,0,1,2.36-4.05,11.74,11.74,0,0,1,3.49-2.76,9.32,9.32,0,0,1,4.27-1,9.65,9.65,0,0,1,4.23,1.08,11.31,11.31,0,0,1,3.46,2.73,13,13,0,0,1,2.33,4,13.54,13.54,0,0,1,.87,4.85V30.7h1.18V27.19a15.23,15.23,0,0,0-1-5.46,14.94,14.94,0,0,0-2.6-4.45,12.23,12.23,0,0,0-3.88-3,10.42,10.42,0,0,0-9.46.07,12.22,12.22,0,0,0-3.81,3,15.15,15.15,0,0,0-2.58,4.46A15.32,15.32,0,0,0,85,27.19V53.77a15.55,15.55,0,0,0,.94,5.42,14.56,14.56,0,0,0,2.58,4.42,12.42,12.42,0,0,0,3.81,3A10.9,10.9,0,0,0,97,67.79h.25a10.89,10.89,0,0,0,4.66-1.17,12.46,12.46,0,0,0,3.82-3,14.54,14.54,0,0,0,2.57-4.42,15.55,15.55,0,0,0,.94-5.42V50.26H108v3.51a14,14,0,0,1-3.2,8.9,11.26,11.26,0,0,1-3.46,2.76,9.18,9.18,0,0,1-4.22,1,9.54,9.54,0,0,1-4.28-1,11,11,0,0,1-3.49-2.73,13.26,13.26,0,0,1-2.36-4,14,14,0,0,1-.86-4.92V40.4" transform="translate(-5.93 -2.82)"/></g><g id="4990a571-c9d2-4d76-9769-05a41dc086b9" data-name="&lt;Group&gt;"><path class="b21bfc0a-689d-4d20-bd98-0c27e9e56374" d="M136.92,22a14.94,14.94,0,0,0-2.6-4.45,12.38,12.38,0,0,0-3.88-3,10.8,10.8,0,0,0-4.79-1.11A11.05,11.05,0,0,0,121,14.6a12.37,12.37,0,0,0-3.81,3,14.9,14.9,0,0,0-2.57,4.46,15.11,15.11,0,0,0-.94,5.36V54a15.32,15.32,0,0,0,.94,5.42,14.34,14.34,0,0,0,2.57,4.42,12.39,12.39,0,0,0,3.81,3,10.9,10.9,0,0,0,4.68,1.17h.24a10.82,10.82,0,0,0,4.66-1.17,12.31,12.31,0,0,0,3.82-3A14.42,14.42,0,0,0,137,59.45a15.32,15.32,0,0,0,.94-5.42V27.46A15.25,15.25,0,0,0,136.92,22Zm-.21,5.47V54a13.85,13.85,0,0,1-3.2,8.9,11.19,11.19,0,0,1-3.45,2.76,9.25,9.25,0,0,1-4.23,1,9.54,9.54,0,0,1-4.28-1A11.18,11.18,0,0,1,118.06,63a13.47,13.47,0,0,1-2.36-4,14,14,0,0,1-.86-4.92V27.46a13.81,13.81,0,0,1,.86-4.86,13.65,13.65,0,0,1,2.36-4.05,11.74,11.74,0,0,1,3.49-2.76,9.34,9.34,0,0,1,4.28-1,9.86,9.86,0,0,1,4.23,1.08,11.27,11.27,0,0,1,3.45,2.73,13.23,13.23,0,0,1,2.34,4A13.81,13.81,0,0,1,136.71,27.46Z" transform="translate(-5.93 -2.82)"/></g><polygon class="b21bfc0a-689d-4d20-bd98-0c27e9e56374" points="30.26 63.45 30.23 11.69 32.36 11.69 32.36 10.34 26.94 10.34 26.94 11.69 29.05 11.69 29.07 60.69 2.98 0.01 0 0 6 13.98 6.02 63.63 3.89 63.63 3.89 64.98 9.31 64.98 9.31 63.63 7.2 63.63 7.18 16.74 32.04 74.77 32.21 75.14 35.27 75.16 30.26 63.45"/></svg>
+             </div>
+         </header>

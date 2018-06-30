@@ -1,0 +1,215 @@
+/*
+    Gradient colors for project details, do take note of the colors and percentages, this entire chunk is for 1 set
+*/
+
+/*Hylandia by Shangri-La*/
+.bgcolor-resort1 {
+    background-color: #847E73;
+    
+}
+
+.bgcolor-resort1 #projectgrid_container {
+    background: -moz-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #847E73), color-stop(23%, #7B7773), color-stop(60%, #695F5B), color-stop(82%, #46403E), color-stop(100%, #222222));
+	background: -webkit-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: -o-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: -ms-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: linear-gradient(to bottom, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+
+    color: #fff;
+}
+
+.bgcolor-resort1 .text-link:hover {
+    color: #fff;
+    border-color: #fff;
+}
+.bgcolor-resort1 footer a:hover {
+    color :#fff;
+}
+
+
+.bgcolor-resort1 .hamburger-inner, 
+.bgcolor-resort1 .hamburger-inner::before, 
+.bgcolor-resort1 .hamburger-inner::after {
+    background-color: #fff;
+}
+
+body.bgcolor-resort1 .hamburger-inner, 
+body.bgcolor-resort1 .hamburger-inner::before, 
+body.bgcolor-resort1 .hamburger-inner::after {
+    background-color: #fff;
+}
+
+/*Studio City Macau
+.bgcolor-urban1 {
+    background-color: #847E73;
+    
+}
+
+.bgcolor-urban1 #projectgrid_container {
+    background: -moz-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #847E73), color-stop(23%, #7B7773), color-stop(60%, #695F5B), color-stop(82%, #46403E), color-stop(100%, #222222));
+	background: -webkit-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: -o-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: -ms-linear-gradient(top, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+	background: linear-gradient(to bottom, #847E73 0%, #7B7773 23%, #695F5B 60%, #46403E 82%, #222222 100%);
+
+    color: #fff;
+}
+
+.bgcolor-urban1 .text-link:hover {
+    color: #fff;
+    border-color: #fff;
+}
+.bgcolor-urban1 footer a:hover {
+    color :#fff;
+}
+
+
+.bgcolor-urban1 .hamburger-inner, 
+.bgcolor-urban1 .hamburger-inner::before, 
+.bgcolor-urban1 .hamburger-inner::after {
+    background-color: #fff;
+}
+
+body.bgcolor-urban1 .hamburger-inner, 
+body.bgcolor-urban1 .hamburger-inner::before, 
+body.bgcolor-urban1 .hamburger-inner::after {
+    background-color: #fff;
+}
+
+*/
+
+
+/* Customised Gradients for projects
+    Note that all values must be in rgba since it is a gradient to transparent
+
+ */
+
+ /*Four Seasons Seoul*/
+.projectgrid-bgbase.cus-grad1 {
+    background: rgba(60,37,19,100);
+	background: -moz-linear-gradient(top, rgba(60,37,19,0) 0%, rgba(60,37,19,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,37,19,100)), color-stop(100%, rgba(60,37,19,100)));
+	background: -webkit-linear-gradient(top, rgba(60,37,19,0) 0%, rgba(60,37,19,100) 100%);
+	background: -o-linear-gradient(top, rgba(60,37,19,0) 0%, rgba(60,37,19,100) 100%);
+	background: -ms-linear-gradient(top, rgba(60,37,19,0) 0%, rgba(60,37,19,100) 100%);
+	background: linear-gradient(to bottom, rgba(60,37,19,0) 0%, rgba(60,37,19,100) 100%);
+}
+
+ /*Studio City Macau*/
+.projectgrid-bgbase.cus-grad2 {
+    background: rgba(110,74,41,100);
+	background: -moz-linear-gradient(top, rgba(110,74,41,0) 0%, rgba(110,74,41,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(110,74,41,100)), color-stop(100%, rgba(110,74,41,100)));
+	background: -webkit-linear-gradient(top, rgba(110,74,41,0) 0%, rgba(110,74,41,100) 100%);
+	background: -o-linear-gradient(top, rgba(110,74,41,0) 0%, rgba(110,74,41,100) 100%);
+	background: -ms-linear-gradient(top, rgba(110,74,41,0) 0%, rgba(110,74,41,100) 100%);
+	background: linear-gradient(to bottom, rgba(110,74,41,0) 0%, rgba(110,74,41,100) 100%);
+}
+
+ /*Ritz Carlton HK*/
+.projectgrid-bgbase.cus-grad3 {
+    background: rgba(54,52,50,100);
+	background: -moz-linear-gradient(top, rgba(54,52,50,0) 0%, rgba(54,52,50,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(54,52,50,100)), color-stop(100%, rgba(54,52,50,100)));
+	background: -webkit-linear-gradient(top, rgba(54,52,50,0) 0%, rgba(54,52,50,100) 100%);
+	background: -o-linear-gradient(top, rgba(54,52,50,0) 0%, rgba(54,52,50,100) 100%);
+	background: -ms-linear-gradient(top, rgba(54,52,50,0) 0%, rgba(54,52,50,100) 100%);
+	background: linear-gradient(to bottom, rgba(54,52,50,0) 0%, rgba(54,52,50,100) 100%);
+}
+
+ /*Hylandia Shangri La*/
+.projectgrid-bgbase.cus-grad4 {
+    background: rgba(48,33,29,100);
+	background: -moz-linear-gradient(top, rgba(48,33,29,0) 0%, rgba(48,33,29,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48,33,29,100)), color-stop(100%, rgba(48,33,29,100)));
+	background: -webkit-linear-gradient(top, rgba(48,33,29,0) 0%, rgba(48,33,29,100) 100%);
+	background: -o-linear-gradient(top, rgba(48,33,29,0) 0%, rgba(48,33,29,100) 100%);
+	background: -ms-linear-gradient(top, rgba(48,33,29,0) 0%, rgba(48,33,29,100) 100%);
+	background: linear-gradient(to bottom, rgba(48,33,29,0) 0%, rgba(48,33,29,100) 100%);
+}
+
+ /*Hotel Pullman Kaifeng*/
+.projectgrid-bgbase.cus-grad5 {
+    background: rgba(33,49,64,100);
+	background: -moz-linear-gradient(top, rgba(33,49,64,0) 0%, rgba(33,49,64,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,49,64,100)), color-stop(100%, rgba(33,49,64,100)));
+	background: -webkit-linear-gradient(top, rgba(33,49,64,0) 0%, rgba(33,49,64,100) 100%);
+	background: -o-linear-gradient(top, rgba(33,49,64,0) 0%, rgba(33,49,64,100) 100%);
+	background: -ms-linear-gradient(top, rgba(33,49,64,0) 0%, rgba(33,49,64,100) 100%);
+	background: linear-gradient(to bottom, rgba(33,49,64,0) 0%, rgba(33,49,64,100) 100%);
+}
+
+ /*Conrad Beijing*/
+.projectgrid-bgbase.cus-grad6 {
+    background: rgba(49,51,67,100);
+	background: -moz-linear-gradient(top, rgba(49,51,67,0) 0%, rgba(49,51,67,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(49,51,67,100)), color-stop(100%, rgba(49,51,67,100)));
+	background: -webkit-linear-gradient(top, rgba(49,51,67,0) 0%, rgba(49,51,67,100) 100%);
+	background: -o-linear-gradient(top, rgba(49,51,67,0) 0%, rgba(49,51,67,100) 100%);
+	background: -ms-linear-gradient(top, rgba(49,51,67,0) 0%, rgba(49,51,67,100) 100%);
+	background: linear-gradient(to bottom, rgba(49,51,67,0) 0%, rgba(49,51,67,100) 100%);
+}
+
+ /*Hyatt Regency*/
+.projectgrid-bgbase.cus-grad7 {
+    background: rgba(81,64,61,100);
+	background: -moz-linear-gradient(top, rgba(81,64,61,0) 0%, rgba(81,64,61,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(81,64,61,100)), color-stop(100%, rgba(81,64,61,100)));
+	background: -webkit-linear-gradient(top, rgba(81,64,61,0) 0%, rgba(81,64,61,100) 100%);
+	background: -o-linear-gradient(top, rgba(81,64,61,0) 0%, rgba(81,64,61,100) 100%);
+	background: -ms-linear-gradient(top, rgba(81,64,61,0) 0%, rgba(81,64,61,100) 100%);
+	background: linear-gradient(to bottom, rgba(81,64,61,0) 0%, rgba(81,64,61,100) 100%);
+}
+
+ /*Hyatt Sanya*/
+.projectgrid-bgbase.cus-grad8 {
+    background: rgba(76,86,74,100);
+	background: -moz-linear-gradient(top, rgba(76,86,74,0) 0%, rgba(76,86,74,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,86,74,100)), color-stop(100%, rgba(76,86,74,100)));
+	background: -webkit-linear-gradient(top, rgba(76,86,74,0) 0%, rgba(76,86,74,100) 100%);
+	background: -o-linear-gradient(top, rgba(76,86,74,0) 0%, rgba(76,86,74,100) 100%);
+	background: -ms-linear-gradient(top, rgba(76,86,74,0) 0%, rgba(76,86,74,100) 100%);
+	background: linear-gradient(to bottom, rgba(76,86,74,0) 0%, rgba(76,86,74,100) 100%);
+}
+
+
+ /*Lost Stone*/
+.projectgrid-bgbase.cus-grad9 {
+    background: rgba(136,96,66,100);
+	background: -moz-linear-gradient(top, rgba(136,96,66,0) 0%, rgba(136,96,66,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(136,96,66,100)), color-stop(100%, rgba(136,96,66,100)));
+	background: -webkit-linear-gradient(top, rgba(136,96,66,0) 0%, rgba(136,96,66,100) 100%);
+	background: -o-linear-gradient(top, rgba(136,96,66,0) 0%, rgba(136,96,66,100) 100%);
+	background: -ms-linear-gradient(top, rgba(136,96,66,0) 0%, rgba(136,96,66,100) 100%);
+	background: linear-gradient(to bottom, rgba(136,96,66,0) 0%, rgba(136,96,66,100) 100%);
+}
+
+ /*Ritz Singapore Residences*/
+.projectgrid-bgbase.cus-grad10 {
+    background: rgba(44,41,24,100);
+	background: -moz-linear-gradient(top, rgba(44,41,24,0) 0%, rgba(44,41,24,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44,41,24,100)), color-stop(100%, rgba(44,41,24,100)));
+	background: -webkit-linear-gradient(top, rgba(44,41,24,0) 0%, rgba(44,41,24,100) 100%);
+	background: -o-linear-gradient(top, rgba(44,41,24,0) 0%, rgba(44,41,24,100) 100%);
+	background: -ms-linear-gradient(top, rgba(44,41,24,0) 0%, rgba(44,41,24,100) 100%);
+	background: linear-gradient(to bottom, rgba(44,41,24,0) 0%, rgba(44,41,24,100) 100%);
+}
+
+ /*Project Index*/
+.projectgrid-bgbase.cus-grad11 {
+    background: rgba(55,39,34,100);
+	background: -moz-linear-gradient(top, rgba(55,39,34,0) 0%, rgba(55,39,34,100) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(55,39,34,100)), color-stop(100%, rgba(55,39,34,100)));
+	background: -webkit-linear-gradient(top, rgba(55,39,34,0) 0%, rgba(55,39,34,100) 100%);
+	background: -o-linear-gradient(top, rgba(55,39,34,0) 0%, rgba(55,39,34,100) 100%);
+	background: -ms-linear-gradient(top, rgba(55,39,34,0) 0%, rgba(55,39,34,100) 100%);
+	background: linear-gradient(to bottom, rgba(55,39,34,0) 0%, rgba(55,39,34,100) 100%);
+}
+
+
+.cus-textwidth1 {
+
+	width: 100%;
+}
